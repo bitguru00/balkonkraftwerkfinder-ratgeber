@@ -19,3 +19,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [Anlagenzusammenfassung § 24](anlagenzusammenfassung-2026)
 - [Typenschild / Drossel](typenschild-drossel-2026)
 - [§ 9 EEG Steuerbarkeit](eeg-steuerbarkeit-2026)
+- [§ 3 EEG Definition](eeg-definition-2026)
