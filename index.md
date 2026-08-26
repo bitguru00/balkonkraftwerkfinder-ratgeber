@@ -15,3 +15,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [Einkommensteuer § 3 Nummer 72](estg-3-72-2026)
 - [Betrieb vor Zählertausch](betreiben-vor-zaehlertausch-2026)
 - [Unentgeltliche Abnahme](unentgeltliche-abnahme-2026)
+- [WEG § 20](weg-20-2026)
