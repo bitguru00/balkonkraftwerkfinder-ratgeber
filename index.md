@@ -22,3 +22,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [§ 3 EEG Definition](eeg-definition-2026)
 - [Insel / MaStR](insel-mastr-2026)
 - [MaStR summarisch](mastr-summarisch-2026)
+- [Solarpaket-Stichtag](solarpaket-cutoff-2026)
