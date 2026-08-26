@@ -1,0 +1,17 @@
+# Balkonkraftwerkfinder Ratgeber (GitHub Pages)
+
+Redaktion Balkonkraftwerkfinder. Recherche, keine Rechts-, Steuer- oder Elektroberatung. Stand: 2026-08-26. Texte AI-bearbeitet, redaktionell geprüft.
+
+## Pages
+
+- https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/mieter-554-2026.md
+- https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/wieland-schuko-2026.md
+- https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/speicher-nachruesten-2026.md
+
+## Live (inner URLs only)
+
+- https://balkonkraftwerkfinder.de/mieter
+- https://balkonkraftwerkfinder.de/vergleich
+- https://balkonkraftwerkfinder.de/anmeldung
+- https://balkonkraftwerkfinder.de/ratgeber/schuko-vs-wieland
+- https://balkonkraftwerkfinder.de/rechtliches

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/sitemap.xml
