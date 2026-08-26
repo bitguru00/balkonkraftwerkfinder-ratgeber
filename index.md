@@ -12,3 +12,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [Wärmepumpe / Nachtlast](waermepumpe-nachtlast-2026)
 - [Zwei Geräte / ein Zähler](mehrere-steckersolar-2026)
 - [Nullsteuersatz USt](ust-nullsteuersatz-2026)
+- [Einkommensteuer § 3 Nummer 72](estg-3-72-2026)
