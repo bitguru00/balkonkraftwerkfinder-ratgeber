@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FI-Schutzschalter Typ A oder Typ B am Balkonkraftwerk 2026</title>
+<meta name="description" content="Typ A vs Typ B am Steckersolar. Keine Elektroberatung. Stand 26.08.2026.">
+<link rel="canonical" href="https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/fi-typ-a-vs-b-2026.html">
+<style>body{font:18px/1.55 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#111} table{border-collapse:collapse;width:100%;margin:1rem 0} th,td{border:1px solid #ccc;padding:.4rem .5rem;text-align:left;vertical-align:top} h1,h2{line-height:1.25}</style>
+</head>
+<body>
+<article>
+<h1>FI-Schutzschalter Typ A oder Typ B am Balkonkraftwerk</h1>
+<p><strong>Autor:</strong> Redaktion Balkonkraftwerkfinder · <strong>Stand:</strong> 26.08.2026 · <strong>Status der Seite:</strong> AI-bearbeitet, redaktionell geprüft</p>
+<p>Kurze Antwort: In Wohnungen sitzt fast immer ein FI <strong>Typ A</strong>. Der sieht Wechsel- und pulsierende Gleichfehlerströme. <strong>Typ B</strong> sieht zusätzlich glatte Gleichfehlerströme. Für PV-Wechselstromkreise verlangt DIN VDE 0100-712:2016 grundsätzlich Typ B — <strong>es sei denn</strong>, der Wechselrichter-Hersteller gibt einen anderen Typ frei. Viele Steckersolargeräte bringen eine eigene Fehlerstromüberwachung mit. Das ersetzt keine Elektrofachkraft und ist keine Installationsanweisung.</p>
+<p>Shops verkaufen Sets. Die Frage „welcher FI hängt vor meiner Balkondose?“ steht nicht auf der Produktkarte.</p>
+<h2>Die drei Typen, ohne Verkäufer-Kürze</h2>
+<table>
+<thead><tr><th>Typ</th><th>Was er erkennt</th><th>Typische Rolle im Wohnungsbau</th></tr></thead>
+<tbody>
+<tr><td>A</td><td>Wechselfehlerstrom und pulsierender Gleichfehlerstrom</td><td>Standard-FI hinter der Zählerschrank-Verteilung</td></tr>
+<tr><td>F</td><td>zusätzlich Mischfrequenzen (z. B. Frequenzumrichter)</td><td>eher Waschmaschine, Wärmepumpe, nicht der Default</td></tr>
+<tr><td>B</td><td>zusätzlich glatte Gleichfehlerströme</td><td>oft gefordert, wo Wechselrichter DC-seitig Fehler erzeugen können</td></tr>
+</tbody></table>
+<p>Ein glatter Gleichfehlerstrom kann einen Typ-A-FI so vormagnetisieren, dass er <strong>nicht mehr</strong> zuverlässig auf einen späteren Wechselfehler reagiert. Deshalb ist die Typfrage bei PV keine Geschmacksfrage.</p>
+<p>Normbezug (nicht die Volltext-Norm, sondern die Herstellerauslegung dazu): SMA, Technische Information „Kriterien für die Auswahl einer Fehlerstrom-Schutzeinrichtung“, RCD-TI-de-45, Version 4.5. Zitat der dort referenzierten Forderung: Wird eine Fehlerstrom-Schutzeinrichtung für den Schutz des PV-Wechselstrom-Kreises verwendet, muss sie vom Typ B sein. Ausnahme: Der Hersteller des Wechselrichters erteilt die Freigabe für andere RCD-Typen. Datei: <a href="https://files.sma.de/downloads/RCD-TI-de-45.pdf">files.sma.de/downloads/RCD-TI-de-45.pdf</a> (abgerufen 26.08.2026). Die Information gilt für SMA-Geräteklassen in dem Dokument; sie ist <strong>kein</strong> Freifahrtschein für jeden Mini-WR.</p>
+<p>Personenschutz allgemein: DIN VDE 0100-410 (automatische Abschaltung). PV-spezifisch: DIN VDE 0100-712. Steckersolar-Produkt: DIN VDE V 0126-95.</p>
+<h2>Was die Steckersolar-Produktnorm zusätzlich macht</h2>
+<p>Das Umweltbundesamt (Seite „Steckersolargeräte (Balkonkraftwerke)“, zuletzt aktualisiert 18.03.2026) verweist auf die Produktnorm <strong>DIN VDE V 0126-95</strong>. Schuko am Haushaltsstromkreis ist danach nur unter weiteren Schutzmaßnahmen und nur bis zu einer Modulleistung von 960 Watt normgerecht beschrieben; darüber Energiesteckvorrichtung oder Festanschluss durch eine Elektrofachkraft (VDE V 0100-551-1). Quelle: <a href="https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/photovoltaik/steckersolargeraete-balkonkraftwerke">UBA Steckersolargeräte</a>.</p>
+<p>Viele Mini-Wechselrichter führen intern eine Residual-Current-Monitoring-Unit (RCMU). Das ist eine Überwachung <strong>im Gerät</strong>, kein Nachweis, dass der vorhandene Typ-A-FI im Kasten denselben Job macht. Ob der Hersteller Typ A vor dem Gerät <strong>freigibt</strong>, steht im Datenblatt oder in der Konformitäts-/Herstellererklärung — nicht im Shop-Titel.</p>
+<p>Anschlussart (Schuko vs. Wieland) ist eine andere Frage als der FI-Typ: <a href="https://balkonkraftwerkfinder.de/hilfe/schuko-oder-wieland">Schuko oder Wieland</a>.</p>
+<h2>800 W Ausgang ist nicht der FI</h2>
+<p>Die EEG-Sonderregeln seit dem Solarpaket (16.05.2024) gelten für Steckersolargeräte mit <strong>Wechselrichterleistung</strong> bis 800 Watt und <strong>Modulleistung</strong> bis 2.000 Watt. Das sind getrennte Größen. Der FI kennt keine Wp-Zahl. Details: <a href="https://balkonkraftwerkfinder.de/800w-regelung">800-W-Regelung</a>.</p>
+<p>Registrierung bleibt: Marktstammdatenregister, ohne Extra-Meldung beim Netzbetreiber in diesen Grenzen. Quelle: <a href="https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Balkon_table.html">Bundesnetzagentur, Balkon-Solaranlagen</a> (abgerufen 26.08.2026). Ablauf: <a href="https://balkonkraftwerkfinder.de/anmeldung">Anmeldung</a>.</p>
+<p>Mieter brauchen zusätzlich die Zumutbarkeitsprüfung nach <a href="https://www.gesetze-im-internet.de/bgb/__554.html">§ 554 Abs. 1 BGB</a> (abgerufen 26.08.2026) — das ist Erlaubnis der baulichen Veränderung, keine Elektroabnahme. Einordnung: <a href="https://balkonkraftwerkfinder.de/mieter">Mieter</a>.</p>
+<h2>Was du prüfen kannst, ohne den Kasten umzubauen</h2>
+<ol><li>Welcher FI-Typ steht auf dem vorhandenen Schalter (A, F, B — Aufdruck)?</li><li>Steht im Wechselrichter-Handbuch eine <strong>ausdrückliche Freigabe</strong> für Typ A, oder nur „RCMU integriert“?</li><li>Hängt die Balkondose hinter einem FI, der auch Küche/Bad schützt — ein Auslösen legt dann mehr als den Balkon still.</li><li>Ist die Dose überhaupt dein Wohnungsstromkreis, nicht der Allgemeinstrom? Dazu: der Schwestertext zum Allgemeinstromzähler und <a href="https://balkonkraftwerkfinder.de/hilfe/zweirichtungszaehler-alter-zaehler">Zwei- oder alter Zähler</a>.</li><li>Kein Gerät tauschen „auf Verdacht“. Auswahl und Einbau bleiben Aufgabe einer Elektrofachkraft; abweichende Herstellerfreigaben gelten nur für das genannte Gerät.</li></ol>
+<p>Sets vergleichen, ohne FI-Theater: <a href="https://balkonkraftwerkfinder.de/vergleich">Vergleich</a>. Ertrag hängt von Lage und Verschattung ab: <a href="https://balkonkraftwerkfinder.de/rechner">Rechner</a>. Speicher ändert den FI-Typ nicht von allein: <a href="https://balkonkraftwerkfinder.de/hilfe/speicher-nachruesten-anmelden">Speicher nachrüsten anmelden</a>.</p>
+<p>Wir nennen hier keine Preise, keine Pflicht zum Sofort-Tausch und keine Zertifikate, die wir nicht am Gerät geprüft haben.</p>
+<h2>FAQ</h2>
+<p><strong>Muss ich vor jedem Balkonkraftwerk den FI auf Typ B tauschen?</strong></p>
+<p>Nicht pauschal. DIN VDE 0100-712:2016 fordert Typ B, <strong>wenn</strong> ein FI den PV-Wechselstromkreis schützt — mit Hersteller-Ausnahme für andere Typen. Ob dein Mini-WR unter diese Ausnahme fällt, steht nur in <strong>seiner</strong> Freigabe.</p>
+<p><strong>Reicht der FI Typ A, weil das Set „steckerfertig“ ist?</strong></p>
+<p>Steckerfertig beschreibt die Produktnorm und den Stecker, nicht automatisch den Typ im Zählerschrank. Ohne Herstellerfreigabe für Typ A bleibt die 712-Logik: Typ B.</p>
+<p><strong>Ist das eine Abnahme?</strong></p>
+<p>Nein. Diese Seite ist Recherche. Keine Elektro-, Rechts- oder Sicherheitsberatung. Bei Unsicherheit: Fachkraft plus Datenblatt, nicht Foren-Daumenregeln.</p>
+<p><strong>Quellen (Stand 26.08.2026):</strong> SMA RCD-TI-de-45 Version 4.5 (Verweis auf DIN VDE 0100-712:2016); UBA Steckersolargeräte (18.03.2026); BNetzA Balkon-Solaranlagen; § 554 BGB. Recherche, keine Beratung.</p>
+</article>
+<p><a href="./">Uebersicht</a> · Recherche, keine Beratung. AI-bearbeitet, redaktionell geprueft.</p>
+</body>
+</html>
