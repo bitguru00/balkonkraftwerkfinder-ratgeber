@@ -8,3 +8,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [Dynamischer Tarif](dynamischer-tarif-2026)
 - [Allgemeinstromzähler](allgemeinstromzaehler-2026)
 - [FI Typ A vs B](fi-typ-a-vs-b-2026)
+- [MaStR Betreiberwechsel](mastr-betreiberwechsel-2026)
