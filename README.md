@@ -11,3 +11,10 @@ Live-Ratgeber: [balkonkraftwerkfinder.de](https://balkonkraftwerkfinder.de/vergl
 - [Speicher nachrüsten 2026](./speicher-nachruesten-2026.md)
 
 Stand: 2026-08-26. Texte AI-bearbeitet, redaktionell geprüft.
+
+## PDF (indexierbar)
+
+- [Mieter § 554 (PDF)](./pdf/mieter-554-2026.pdf)
+- [Wieland / Schuko (PDF)](./pdf/wieland-schuko-2026.pdf)
+- [Speicher nachrüsten (PDF)](./pdf/speicher-nachruesten-2026.pdf)
+
