@@ -10,3 +10,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [FI Typ A vs B](fi-typ-a-vs-b-2026)
 - [MaStR Betreiberwechsel](mastr-betreiberwechsel-2026)
 - [Wärmepumpe / Nachtlast](waermepumpe-nachtlast-2026)
+- [Zwei Geräte / ein Zähler](mehrere-steckersolar-2026)
