@@ -24,3 +24,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [MaStR summarisch](mastr-summarisch-2026)
 - [Solarpaket-Stichtag](solarpaket-cutoff-2026)
 - [MaStR Stilllegung](mastr-stilllegung-2026)
+- [MaStRV § 13](mastrv-13-2026)
