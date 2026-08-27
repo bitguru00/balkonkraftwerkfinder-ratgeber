@@ -1,6 +1,6 @@
 # Redaktion Balkonkraftwerkfinder
 
-Recherche, keine Rechtsberatung. Stand 2026-08-26.
+Recherche, keine Rechtsberatung. Stand 2026-08-27.
 
 - [Mieter § 554](mieter-554-2026)
 - [Wieland / Schuko](wieland-schuko-2026)
@@ -28,3 +28,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-26.
 - [Keine acht Wochen](keine-acht-wochen-2026)
 - [Verknüpfungspunkt 30 kW](verknuepfungspunkt-2026)
 - [MaStRV § 10](mastrv-10-2026)
+- [800 VA vs Modul-Wp](800va-vs-wp-2026)
