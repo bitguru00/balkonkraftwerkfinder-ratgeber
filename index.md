@@ -29,3 +29,4 @@ Recherche, keine Rechtsberatung. Stand 2026-08-27.
 - [Verknüpfungspunkt 30 kW](verknuepfungspunkt-2026)
 - [MaStRV § 10](mastrv-10-2026)
 - [800 VA vs Modul-Wp](800va-vs-wp-2026)
+- [800 VA not 800 Wp (EN)](800va-not-wp-en-2026)

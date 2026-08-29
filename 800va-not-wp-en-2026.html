@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Germany plug-in PV cap is 800 VA not 800 Wp (2026)</title>
+<meta name="description" content="BNetzA split: 2 kW modules and 800 VA inverter. Not legal advice. Retrieved 29 Aug 2026.">
+<link rel="canonical" href="https://bitguru00.github.io/balkonkraftwerkfinder-ratgeber/800va-not-wp-en-2026.html">
+<style>body{font:18px/1.55 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#111} table{border-collapse:collapse;width:100%;margin:1rem 0} th,td{border:1px solid #ccc;padding:.4rem .5rem;text-align:left;vertical-align:top} h1,h2{line-height:1.25}</style>
+</head>
+<body>
+<article>
+<h1>Germany’s plug-in balcony PV cap is 800 VA, not 800 Wp</h1>
+<p><strong>Author:</strong> Balkonkraftwerkfinder editorial · <strong>Retrieved:</strong> 29 Aug 2026 · <strong>Status:</strong> AI-edited, editorially reviewed · Not legal advice.</p>
+<p>Short answer: German simplified rules for plug-in balcony solar (Steckersolargerät) use <strong>two</strong> limits at once — module capacity <strong>up to 2 kW installed</strong> and inverter output <strong>up to 800 volt-amperes</strong>. Shops often print “800 W balcony power plant” as if watt-peak on the panel and VA on the inverter were the same number. They are not. The Bundesnetzagentur states the same split: max 2,000 W module power, 800 VA inverter power, and if several devices sit behind the <strong>same</strong> withdrawal point, you <strong>add</strong> them. Source: <a href="https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Balkon_table.html">BNetzA, Balkon-Solaranlagen</a> (retrieved 29 Aug 2026).</p>
+<p>This note is a technical reading of that split for developers, product people, and anyone parsing shop SKUs. It is not a buying guide and not legal advice.</p>
+<h2>Why the units differ</h2>
+<table><thead><tr><th>Quantity</th><th>What it measures</th><th>Simplified-rule ceiling (BNetzA)</th></tr></thead><tbody><tr><td>Installed / module power</td><td>Panel rating, usually Wp</td><td>2 kW total</td></tr><tr><td>Inverter output</td><td>AC output of the micro-inverter</td><td>800 VA total</td></tr><tr><td>Several devices</td><td>Same withdrawal point</td><td>Both ceilings <strong>summed</strong></td></tr></tbody></table>
+<p>Watt-peak is a DC rating under standard test conditions. Volt-ampere on the inverter is the AC output the grid sees. A 2,000 Wp kit with an 800 VA inverter is a common shop bundle. That does <strong>not</strong> mean 2,000 W is exported. Export is capped by the inverter.</p>
+<p>The software “throttle” in an app does not rewrite the nameplate. If the type plate says more than 800 VA, an in-app limit is a different claim.</p>
+<h2>What product copy usually collapses</h2>
+<table><thead><tr><th>Shop line</th><th>Technical reading</th></tr></thead><tbody><tr><td>“800 Watt balcony kit” with no split</td><td>Law/admin practice splits 2 kW modules <strong>and</strong> 800 VA inverter</td></tr><tr><td>“2,000 Wp set = 2,000 W feed-in”</td><td>Feed-in is inverter-limited</td></tr><tr><td>“Two 800 VA kits on one meter, each under the cap”</td><td>BNetzA: sum behind the same withdrawal point</td></tr><tr><td>“Wp = VA”</td><td>Different physical quantities</td></tr></tbody></table>
+<p>If you are building a comparison table or a SKU parser, store <strong>two</strong> fields. Do not fold them into one “watt” integer.</p>
+<h2>Registration is not optional because the grid notice is simpler</h2>
+<p>BNetzA still points operators to the Marktstammdatenregister. Simplified grid connection does not mean “no register.” Walkthrough on our site (inner page, not the homepage): <a href="https://balkonkraftwerkfinder.de/anmeldung">Balkonkraftwerk Anmeldung 2026</a>.</p>
+<p>Everyday 800 VA vs module Wp, in German, with the same split: <a href="https://balkonkraftwerkfinder.de/800w-regelung">800-W-Regelung</a>. Rough yield only, not a promise: <a href="https://balkonkraftwerkfinder.de/rechner">Rechner</a>. Sets without a “best of” badge: <a href="https://balkonkraftwerkfinder.de/vergleich">Vergleich</a>.</p>
+<p>Primary official page for the two ceilings: <a href="https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/ErneuerbareEnergien/Solaranlagen/Balkon_table.html">BNetzA, Balkon-Solaranlagen</a> (retrieved 29 Aug 2026).</p>
+<h2>Checklist for a listing or firmware note</h2>
+<ol><li>Type plate on the inverter: maximum <strong>VA</strong>, not only an app slider.</li><li>Module sum: installed power ≤ 2 kW.</li><li>Second device on the same meter: add VA and kW; do not reset per device.</li><li>MaStR done even if the DSO must not demand an extra signup for this class.</li><li>Do not advertise “800 W in, 800 W out” unless you measured AC output.</li></ol>
+<h2>FAQ</h2>
+<p><strong>Can the module Wp exceed 800?</strong>  </p>
+<p>Yes, as long as <strong>installed</strong> module power stays within 2 kW total. 800 VA is the inverter ceiling.</p>
+<p><strong>Is 800 W the same as 800 VA?</strong>  </p>
+<p>Shops say watt. The administrative split uses <strong>volt-amperes</strong> for the inverter. This page does not convert VA to W.</p>
+<p><strong>Two 800 VA kits?</strong>  </p>
+<p>Behind one withdrawal point the sums count. Two full 800 VA inverters are 1,600 VA total.</p>
+<p><strong>Sources (retrieved 29 Aug 2026):</strong> Bundesnetzagentur, Balkon-Solaranlagen. Research note, not legal advice. AI-edited, editorially reviewed.</p>
+</article>
+</body>
+</html>
